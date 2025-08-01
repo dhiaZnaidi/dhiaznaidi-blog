@@ -2,89 +2,89 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dhiaznaidiblog.github.io/writeups/htb/mahines/voleur/voleur/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/writeups/htb/machines/voleur/voleur/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/tags/active-directory/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/active-directory/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/categories/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/categories/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/difficulty/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/difficulty/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/tags/dpapi/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/dpapi/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/techniques/dpapi-extraction/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/techniques/dpapi-extraction/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/difficulty/hard/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/difficulty/hard/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/tags/hard/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/hard/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/tags/htb/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/htb/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/tags/kerberoasting/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/kerberoasting/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/categories/machines/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/categories/machines/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/tags/privilege-escalation/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/privilege-escalation/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/techniques/service-abuse/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/techniques/service-abuse/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/tags/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/techniques/targeted-kerberoasting/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/techniques/targeted-kerberoasting/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/techniques/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/techniques/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/techniques/web-exploitation/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/techniques/web-exploitation/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/tags/windows/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/windows/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/techniques/windows-privesc/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/techniques/windows-privesc/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/categories/writeups/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/categories/writeups/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/writeups/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/writeups/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/writeups/htb/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/writeups/htb/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/certifications/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/certifications/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/about/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/about/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/writeups/htb/mahines/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/writeups/htb/machines/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/writeups/htb/challenges/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/writeups/htb/challenges/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/owasp/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/owasp/</loc>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/platforms/</loc>
+    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/platforms/</loc>
   </url>
 </urlset>
