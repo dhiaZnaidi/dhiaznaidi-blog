@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>HexHunter404 - Cybersécurité &amp; IA</title>
+    <title>HexHunter404 - Cybersecurity &amp; AI</title>
     <link>https://dhiaznaidiblog.github.io/</link>
-    <description>Recent content on HexHunter404 - Cybersécurité &amp; IA</description>
+    <description>Recent content on HexHunter404 - Cybersecurity &amp; AI</description>
     <generator>Hugo -- 0.148.2</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2024 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://dhiaznaidiblog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[HTB] Voleur - Advanced Windows Exploitation</title>
+      <link>https://dhiaznaidiblog.github.io/writeups/htb/mahines/voleur/voleur/</link>
+      <pubDate>Sun, 01 Dec 2024 10:00:00 +0100</pubDate>
+      <guid>https://dhiaznaidiblog.github.io/writeups/htb/mahines/voleur/voleur/</guid>
+      <description>HTB Voleur machine walkthrough - Advanced Windows exploitation with service abuse, DPAPI attacks, and privilege escalation</description>
+    </item>
     <item>
       <title>🏆 Certifications &amp; Distinctions</title>
       <link>https://dhiaznaidiblog.github.io/certifications/</link>
@@ -75,11 +82,11 @@
 &lt;p&gt;&lt;em&gt;Toujours en apprentissage et prêt pour de nouveaux défis ! 🚀&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>👤 À propos de HexHunter404</title>
+      <title>👤 About HexHunter404</title>
       <link>https://dhiaznaidiblog.github.io/about/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://dhiaznaidiblog.github.io/about/</guid>
-      <description>Expert en cybersécurité et intelligence artificielle - HTB Pro Hacker #544</description>
+      <description>Cybersecurity expert and AI researcher - HTB Pro Hacker #544</description>
     </item>
   </channel>
 </rss>

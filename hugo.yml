@@ -83,23 +83,18 @@ params:
     Text: "Suggest Changes"
     appendFilePath: true
 
-  htbSections:
-    machines: "🖥️ Machines"
-    challenges: "🧩 Challenges"  
-    fortresses: "🏰 Fortresses"
-    prolabs: "⚡ Pro Labs"
-
+# ✅ MENU PRINCIPAL - identifiants uniques
 menu:
   main:
     - identifier: writeups
       name: "📝 Writeups"
       url: /writeups/
       weight: 10
-    - identifier: htb
+    - identifier: htb-main
       name: "🎯 HTB"
       url: /writeups/htb/
       weight: 15
-    - identifier: thm
+    - identifier: thm-main
       name: "🔍 THM"
       url: /writeups/thm/
       weight: 20
@@ -114,25 +109,6 @@ menu:
     - identifier: about
       name: "👤 About"
       url: /about/
-      weight: 40
-
-  # Sous-menu HTB
-  htb:
-    - identifier: machines
-      name: "🖥️ Machines"
-      url: /writeups/htb/machines/
-      weight: 10
-    - identifier: challenges
-      name: "🧩 Challenges"
-      url: /writeups/htb/challenges/
-      weight: 20
-    - identifier: fortresses
-      name: "🏰 Fortresses"
-      url: /writeups/htb/fortresses/
-      weight: 30
-    - identifier: prolabs
-      name: "⚡ Pro Labs"
-      url: /writeups/htb/prolabs/
       weight: 40
 
 markup:

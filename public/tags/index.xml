@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on HexHunter404 - Cybersécurité &amp; IA</title>
+    <title>Tags on HexHunter404 - Cybersecurity &amp; AI</title>
     <link>https://dhiaznaidiblog.github.io/tags/</link>
-    <description>Recent content in Tags on HexHunter404 - Cybersécurité &amp; IA</description>
+    <description>Recent content in Tags on HexHunter404 - Cybersecurity &amp; AI</description>
     <generator>Hugo -- 0.148.2</generator>
-    <language>fr-fr</language>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2024 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://dhiaznaidiblog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Active-Directory</title>
+      <link>https://dhiaznaidiblog.github.io/tags/active-directory/</link>
+      <pubDate>Sun, 01 Dec 2024 10:00:00 +0100</pubDate>
+      <guid>https://dhiaznaidiblog.github.io/tags/active-directory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dpapi</title>
+      <link>https://dhiaznaidiblog.github.io/tags/dpapi/</link>
+      <pubDate>Sun, 01 Dec 2024 10:00:00 +0100</pubDate>
+      <guid>https://dhiaznaidiblog.github.io/tags/dpapi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hard</title>
+      <link>https://dhiaznaidiblog.github.io/tags/hard/</link>
+      <pubDate>Sun, 01 Dec 2024 10:00:00 +0100</pubDate>
+      <guid>https://dhiaznaidiblog.github.io/tags/hard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Htb</title>
+      <link>https://dhiaznaidiblog.github.io/tags/htb/</link>
+      <pubDate>Sun, 01 Dec 2024 10:00:00 +0100</pubDate>
+      <guid>https://dhiaznaidiblog.github.io/tags/htb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kerberoasting</title>
+      <link>https://dhiaznaidiblog.github.io/tags/kerberoasting/</link>
+      <pubDate>Sun, 01 Dec 2024 10:00:00 +0100</pubDate>
+      <guid>https://dhiaznaidiblog.github.io/tags/kerberoasting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privilege-Escalation</title>
+      <link>https://dhiaznaidiblog.github.io/tags/privilege-escalation/</link>
+      <pubDate>Sun, 01 Dec 2024 10:00:00 +0100</pubDate>
+      <guid>https://dhiaznaidiblog.github.io/tags/privilege-escalation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>https://dhiaznaidiblog.github.io/tags/windows/</link>
+      <pubDate>Sun, 01 Dec 2024 10:00:00 +0100</pubDate>
+      <guid>https://dhiaznaidiblog.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

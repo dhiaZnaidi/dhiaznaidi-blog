@@ -1,12 +1,13 @@
 ---
 title: "[HTB] Voleur - Advanced Windows Exploitation"
+date: 2024-12-01T10:00:00+01:00
 draft: false
-tags: ["htb", "windows", "hard", "active-directory", "privilege-escalation"]
+tags: ["htb", "windows", "hard", "active-directory", "privilege-escalation", "dpapi", "kerberoasting"]
 categories: ["writeups", "machines"]
 difficulty: ["hard"]
 platform: ["htb"]
-techniques: ["web-exploitation", "windows-privesc", "service-abuse"]
-description: "HTB Voleur machine walkthrough - Advanced Windows exploitation with service abuse and privilege escalation"
+techniques: ["web-exploitation", "windows-privesc", "service-abuse", "targeted-kerberoasting", "dpapi-extraction"]
+description: "HTB Voleur machine walkthrough - Advanced Windows exploitation with service abuse, DPAPI attacks, and privilege escalation"
 cover:
     image: "/images/writeups/htb/voleur/voleur-banner.png"
     alt: "HTB Voleur Machine"
@@ -14,8 +15,8 @@ cover:
 author: "HexHunter404"
 ShowToc: true
 TocOpen: false
+weight: 1
 ---
-
 
 ## **Machine Information**
 
