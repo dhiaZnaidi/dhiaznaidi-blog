@@ -8,7 +8,6 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-# Fix: pagination au lieu de paginate
 pagination:
   pagerSize: 8
 
@@ -22,6 +21,10 @@ params:
   description: "Expert Cybersécurité & IA | Pro Hacker HTB #544 | Top 2% THM"
   keywords: [pentest, cybersecurity, AI, htb, tryhackme, ctf, dhia-znaidi, hexhunter404]
   author: "Dhia Znaidi (HexHunter404)"
+
+  # Apparence
+  defaultTheme: dark  # 🌙 Mode sombre par défaut
+  disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -39,35 +42,50 @@ params:
   showtoc: true
   tocopen: false
 
+  # Assets optimisés
   assets:
     disableHLJS: true
+    disableFingerprinting: false
+    favicon: "/favicon.ico"
 
+  # Label personnalisé
   label:
     text: "🔐 HexHunter404"
+    icon: "/favicon.ico"
     iconHeight: 35
 
-  # Fix: homeInfoParams (pas homeinfoparams)
+  # Page d'accueil stylée
   homeInfoParams:
     Title: "Salut ! Je suis Dhia (HexHunter404) 👋"
-    Content: >
+    Content: |
       **Expert Cybersécurité & Intelligence Artificielle** 🚀
-
 
       🎯 **Pro Hacker HTB #544** | **Top 2% TryHackMe** | **IMT Atlantique**
 
-
       🔍 Spécialisé en **tests d'intrusion avancés**, **sécurité des applications web** et **IA appliquée à la cybersécurité**.
-
 
       📚 Je partage ici mes **writeups détaillés** et **techniques de pentest**.
 
+  # Boutons sociaux stylés
   socialIcons:
     - name: github
       url: "https://github.com/dhiaZnaidi"
-    - name: linkedin
+    - name: linkedin  
       url: "https://linkedin.com/in/dhia-znaidi"
     - name: email
       url: "mailto:dhia.znaidi@imt-atlantique.net"
+    - name: rss
+      url: "/index.xml"
+
+  # Cover image pour la page d'accueil
+  cover:
+    linkFullImages: true
+
+  # Configuration d'édition
+  editPost:
+    URL: "https://github.com/dhiaZnaidi/dhiaznaidiblog.github.io/tree/main/content"
+    Text: "Suggérer des modifications"
+    appendFilePath: true
 
 menu:
   main:
@@ -83,6 +101,10 @@ menu:
       name: "🔍 THM"
       url: /tags/thm/
       weight: 20
+    - identifier: research
+      name: "🧠 Recherche IA"
+      url: /research/
+      weight: 25
     - identifier: outils
       name: "🛠️ Outils"
       url: /outils/
@@ -92,6 +114,7 @@ menu:
       url: /about/
       weight: 40
 
+# Configuration markdown avancée
 markup:
   highlight:
     noClasses: false
@@ -101,7 +124,7 @@ markup:
     lineNos: true
     lineNumbersInTable: true
     tabWidth: 4
-    style: "github-dark"
+    style: "github-dark"  # Style sombre pour les codes
   goldmark:
     renderer:
       unsafe: true
@@ -111,3 +134,4 @@ taxonomies:
   category: "categories"
   difficulty: "difficulty"
   platform: "platforms"
+  technique: "techniques"

@@ -1,0 +1,183 @@
+/* Style HexHunter404 - Hacker Theme */
+:root {
+    --htb-green: #9fef00;
+    --thm-red: #c62d42;
+    --hacker-green: #00ff41;
+    --dark-bg: #0d1117;
+    --terminal-bg: #1a1a1a;
+}
+
+/* Header styling */
+.main .profile {
+    background: linear-gradient(135deg, #0d1117 0%, #1a1a1a 100%);
+    border: 1px solid var(--htb-green);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px rgba(159, 239, 0, 0.1);
+}
+
+.main .profile .profile_inner h1 {
+    color: var(--htb-green);
+    text-shadow: 0 0 10px rgba(159, 239, 0, 0.3);
+}
+
+/* Navigation styling */
+.nav a {
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.nav a:hover {
+    color: var(--htb-green) !important;
+    text-shadow: 0 0 5px rgba(159, 239, 0, 0.5);
+}
+
+/* Badges de plateforme */
+.platform-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin: 2px 4px;
+    text-decoration: none;
+}
+
+.htb-badge { 
+    background: var(--htb-green); 
+    color: #000;
+    box-shadow: 0 0 10px rgba(159, 239, 0, 0.3);
+}
+
+.thm-badge { 
+    background: var(--thm-red); 
+    color: white;
+    box-shadow: 0 0 10px rgba(198, 45, 66, 0.3);
+}
+
+/* Difficulty badges */
+.difficulty-easy { 
+    background: #28a745; 
+    color: white;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.difficulty-medium { 
+    background: #ffc107; 
+    color: #000;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.difficulty-hard { 
+    background: #dc3545; 
+    color: white;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.difficulty-insane { 
+    background: linear-gradient(45deg, #ff0000, #cc0000);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 5px rgba(255, 0, 0, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(255, 0, 0, 0.8); }
+    100% { box-shadow: 0 0 5px rgba(255, 0, 0, 0.5); }
+}
+
+/* Code blocks styling */
+.highlight {
+    background: var(--terminal-bg) !important;
+    border: 1px solid var(--htb-green);
+    border-radius: 8px;
+    margin: 1rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.highlight::before {
+    content: "⚡ HexHunter404 Terminal";
+    background: var(--htb-green);
+    color: #000;
+    padding: 4px 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 8px;
+}
+
+.highlight pre {
+    background: var(--terminal-bg) !important;
+    color: var(--hacker-green);
+    padding: 2rem 1rem 1rem 1rem;
+    margin: 0;
+    font-family: 'Courier New', 'Monaco', monospace;
+}
+
+/* Post preview cards */
+.post-entry {
+    background: rgba(26, 26, 26, 0.8);
+    border: 1px solid rgba(159, 239, 0, 0.2);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.post-entry:hover {
+    border-color: var(--htb-green);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(159, 239, 0, 0.1);
+}
+
+/* Footer styling */
+.footer {
+    border-top: 1px solid var(--htb-green);
+    background: rgba(13, 17, 23, 0.95);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--dark-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--htb-green);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(159, 239, 0, 0.8);
+}
+
+/* Tags styling */
+.terms-tags a {
+    background: rgba(159, 239, 0, 0.1);
+    color: var(--htb-green);
+    border: 1px solid rgba(159, 239, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.terms-tags a:hover {
+    background: var(--htb-green);
+    color: #000;
+    transform: scale(1.05);
+}
