@@ -2,89 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/writeups/htb/machines/voleur/voleur/</loc>
+    <loc>https://dhiaznaidi.github.io/writeups/htb/machines/voleur/voleur/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/active-directory/</loc>
+    <loc>https://dhiaznaidi.github.io/tags/active-directory/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/categories/</loc>
+    <loc>https://dhiaznaidi.github.io/categories/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/difficulty/</loc>
+    <loc>https://dhiaznaidi.github.io/tags/hard/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/dpapi/</loc>
+    <loc>https://dhiaznaidi.github.io/tags/htb/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/techniques/dpapi-extraction/</loc>
+    <loc>https://dhiaznaidi.github.io/tags/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/difficulty/hard/</loc>
+    <loc>https://dhiaznaidi.github.io/tags/windows/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/hard/</loc>
+    <loc>https://dhiaznaidi.github.io/categories/writeups/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/</loc>
+    <loc>https://dhiaznaidi.github.io/writeups/</loc>
     <lastmod>2024-12-01T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/htb/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/kerberoasting/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/categories/machines/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/privilege-escalation/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/techniques/service-abuse/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/techniques/targeted-kerberoasting/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/techniques/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/techniques/web-exploitation/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/tags/windows/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/techniques/windows-privesc/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/categories/writeups/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/writeups/</loc>
-    <lastmod>2024-12-01T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/writeups/htb/</loc>
+    <loc>https://dhiaznaidi.github.io/writeups/htb/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/certifications/</loc>
+    <loc>https://dhiaznaidi.github.io/certifications/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/about/</loc>
+    <loc>https://dhiaznaidi.github.io/about/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/writeups/htb/machines/</loc>
+    <loc>https://dhiaznaidi.github.io/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/writeups/htb/challenges/</loc>
+    <loc>https://dhiaznaidi.github.io/writeups/htb/machines/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/owasp/</loc>
+    <loc>https://dhiaznaidi.github.io/writeups/htb/challenges/</loc>
+    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhiaznaidiblog.github.io/dhiaznaidi-blog/platforms/</loc>
+    <loc>https://dhiaznaidi.github.io/difficulty/</loc>
+  </url><url>
+    <loc>https://dhiaznaidi.github.io/platforms/</loc>
   </url>
 </urlset>

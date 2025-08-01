@@ -1,7 +1,7 @@
-baseURL: "https://dhiaznaidiblog.github.io/dhiaznaidi-blog/"
+baseURL: "https://dhiaznaidi.github.io"
 languageCode: "en-us"
-title: "HexHunter404 - Cybersecurity & AI"
-theme: "PaperMod"
+title: "HexHunter404"
+theme: "terminal"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -11,124 +11,74 @@ buildExpired: false
 pagination:
   pagerSize: 8
 
-minify:
-  disableXML: true
-  minifyOutput: true
-
+# ✅ Paramètres spécifiques au thème Terminal
 params:
-  env: production
-  title: "HexHunter404"
-  description: "Cybersecurity Expert & AI Researcher | HTB Pro Hacker #544 | Top 2% THM | Advanced Penetration Testing & CTF Writeups"
-  keywords: [penetration-testing, cybersecurity, artificial-intelligence, htb, tryhackme, ctf, ethical-hacking, red-team, blue-team, dhia-znaidi, hexhunter404]
-  author: "Dhia Znaidi (HexHunter404)"
+  # Terminal theme configuration
+  themeColor: "green"              # Couleur principale (green/orange/red/blue)
+  showMenuItems: 6                 # Nombre d'items dans le menu
+  showLanguageSelector: false      # Pas de sélecteur de langue
+  fullWidthTheme: false           # Largeur complète ou pas
+  centerTheme: false              # Centrer le contenu
+  autoCursorColor: true           # Curseur automatique
 
-  # Appearance
-  defaultTheme: dark
-  disableThemeToggle: false
+  # Terminal style
+  contentTypeName: "writeups"     # Type de contenu principal
+  contentTypeNamePlural: "writeups"
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: true
-  tocopen: false
+  # Site info
+  author: "HexHunter404"
+  description: "HTB Pro Hacker #544 | Cybersecurity Expert & AI Researcher"
+  keywords: ["penetration-testing", "cybersecurity", "htb", "tryhackme", "ctf", "ethical-hacking"]
 
-  assets:
-    disableHLJS: true
-    disableFingerprinting: false
-    favicon: "/favicon.ico"
+  # Terminal prompt customization
+  promptSymbol: "➜"              # Symbole du prompt terminal
+  promptColor: "green"            # Couleur du prompt
 
-  label:
-    text: "🔐 HexHunter404"
-    icon: "/favicon.ico"
-    iconHeight: 35
-
-  homeInfoParams:
-    Title: "Hey! I'm Dhia (HexHunter404) 👋"
-    Content: |
-      **Cybersecurity Expert & AI Researcher** 🚀
-
-      🎯 **HTB Pro Hacker #544** | **Top 2% TryHackMe** | **IMT Atlantique Engineering**
-
-      🔍 Specialized in **advanced penetration testing**, **web application security**, **Active Directory attacks**, and **AI-powered cybersecurity**.
-
-      📚 Sharing detailed **CTF writeups**, **red team techniques**, and **cutting-edge security research**.
-
-      💡 *"The best defense comes from understanding the offense."*
-
-  socialIcons:
-    - name: github
+  # Social links (format différent pour Terminal)
+  social:
+    - name: "github"
       url: "https://github.com/dhiaZnaidi"
-    - name: linkedin  
+    - name: "linkedin"
       url: "https://linkedin.com/in/dhia-znaidi"
-    - name: email
+    - name: "email"
       url: "mailto:dhia.znaidi@imt-atlantique.net"
-    - name: rss
-      url: "/index.xml"
+    - name: "htb"
+      url: "https://app.hackthebox.com/profile/HexHunter404"
 
-  cover:
-    linkFullImages: true
-
-  editPost:
-    URL: "https://github.com/dhiaZnaidi/dhiaznaidiblog.github.io/tree/main/content"
-    Text: "Suggest Changes"
-    appendFilePath: true
-
-# ✅ MENU PRINCIPAL - identifiants uniques
+# Menu pour Terminal
 menu:
   main:
-    - identifier: writeups
-      name: "📝 Writeups"
-      url: /writeups/
+    - identifier: "writeups"
+      name: "writeups/"
+      url: "/writeups/"
       weight: 10
-    - identifier: htb-main
-      name: "🎯 HTB"
-      url: /writeups/htb/
-      weight: 15
-    - identifier: thm-main
-      name: "🔍 THM"
-      url: /writeups/thm/
+    - identifier: "htb"
+      name: "htb/"
+      url: "/writeups/htb/"
       weight: 20
-    - identifier: research
-      name: "🧠 AI Research"
-      url: /research/
-      weight: 25
-    - identifier: tools
-      name: "🛠️ Tools"
-      url: /tools/
+    - identifier: "research"
+      name: "research/"
+      url: "/research/"
       weight: 30
-    - identifier: about
-      name: "👤 About"
-      url: /about/
+    - identifier: "about"
+      name: "about.txt"
+      url: "/about/"
       weight: 40
 
+# Configuration markup pour Terminal
 markup:
   highlight:
-    noClasses: false
+    style: "monokai"            # Style parfait pour terminal
+    lineNos: true
     codeFences: true
     guessSyntax: true
-    lineNoStart: 1
-    lineNos: true
-    lineNumbersInTable: true
-    tabWidth: 4
-    style: "github-dark"
   goldmark:
     renderer:
       unsafe: true
 
+# Taxonomies
 taxonomies:
   tag: "tags"
   category: "categories"
   difficulty: "difficulty"
   platform: "platforms"
-  technique: "techniques"
-  owasp: "owasp"
