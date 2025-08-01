@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://dhiaznaidiblog.github.io/sitemap.xml

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>HexHunter404 - Cybersécurité &amp; IA</title>
+    <link>https://dhiaznaidiblog.github.io/</link>
+    <description>Recent content on HexHunter404 - Cybersécurité &amp; IA</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dhiaznaidiblog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🏆 Certifications &amp; Distinctions</title>
+      <link>https://dhiaznaidiblog.github.io/certifications/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://dhiaznaidiblog.github.io/certifications/</guid>
+      <description>&lt;h2 id=&#34;-cybersécurité-avancée&#34;&gt;🎯 Cybersécurité Avancée&lt;/h2&gt;
+&lt;h3 id=&#34;-certifications-actives&#34;&gt;✅ Certifications Actives&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Certified Network Pentester&lt;/strong&gt; (CPTS Preparation)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Certified AppSec Practitioner&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SOC Analyst L1/L2&lt;/strong&gt; (TryHackMe)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CDSA Preparation&lt;/strong&gt; (HTB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-rankings--achievements&#34;&gt;🏅 Rankings &amp;amp; Achievements&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Plateforme&lt;/th&gt;
+          &lt;th&gt;Pseudo&lt;/th&gt;
+          &lt;th&gt;Rank&lt;/th&gt;
+          &lt;th&gt;Stats&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hack The Box&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HexHunter404&lt;/td&gt;
+          &lt;td&gt;Pro Hacker #544&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://app.hackthebox.com/profile/HexHunter404&#34;&gt;Profile&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;TryHackMe&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HexHunter404&lt;/td&gt;
+          &lt;td&gt;Top 2%&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://tryhackme.com/p/HexHunter404&#34;&gt;Profile&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;RootMe&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HexHunter404&lt;/td&gt;
+          &lt;td&gt;Active&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.root-me.org/HexHunter404&#34;&gt;Profile&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;-ia--data-science&#34;&gt;🧠 IA &amp;amp; Data Science&lt;/h2&gt;
+&lt;h3 id=&#34;-spécialisations&#34;&gt;✅ Spécialisations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PyTorch Deep Learning Expert&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GANs Specialization&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Generative AI with LLMs&lt;/strong&gt; (AWS &amp;amp; Deeplearning.AI)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-distinctions-académiques&#34;&gt;🎖️ Distinctions Académiques&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bourse d&amp;rsquo;excellence IMT Atlantique&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Top 1% promotions 2022-2025&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPA : 3.76/4.0 - 3.60/4.0 - 3.94/4.0&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-participations-ctf&#34;&gt;🚩 Participations CTF&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Flag&amp;rsquo;Malo 2024&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Breizh CTF 2025&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Événements HTB/THM réguliers&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Toujours en apprentissage et prêt pour de nouveaux défis ! 🚀&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
