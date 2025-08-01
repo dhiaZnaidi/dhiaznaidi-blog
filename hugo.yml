@@ -1,6 +1,6 @@
 baseURL: "https://dhiaznaidiblog.github.io"
-languageCode: "fr-fr"
-title: "HexHunter404 - Cybersécurité & IA"
+languageCode: "en-us"
+title: "HexHunter404 - Cybersecurity & AI"
 theme: "PaperMod"
 
 enableRobotsTXT: true
@@ -18,12 +18,12 @@ minify:
 params:
   env: production
   title: "HexHunter404"
-  description: "Expert Cybersécurité & IA | Pro Hacker HTB #544 | Top 2% THM"
-  keywords: [pentest, cybersecurity, AI, htb, tryhackme, ctf, dhia-znaidi, hexhunter404]
+  description: "Cybersecurity Expert & AI Researcher | HTB Pro Hacker #544 | Top 2% THM | Advanced Penetration Testing & CTF Writeups"
+  keywords: [penetration-testing, cybersecurity, artificial-intelligence, htb, tryhackme, ctf, ethical-hacking, red-team, blue-team, dhia-znaidi, hexhunter404]
   author: "Dhia Znaidi (HexHunter404)"
 
-  # Apparence
-  defaultTheme: dark  # 🌙 Mode sombre par défaut
+  # Appearance
+  defaultTheme: dark
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -42,31 +42,29 @@ params:
   showtoc: true
   tocopen: false
 
-  # Assets optimisés
   assets:
     disableHLJS: true
     disableFingerprinting: false
     favicon: "/favicon.ico"
 
-  # Label personnalisé
   label:
     text: "🔐 HexHunter404"
     icon: "/favicon.ico"
     iconHeight: 35
 
-  # Page d'accueil stylée
   homeInfoParams:
-    Title: "Salut ! Je suis Dhia (HexHunter404) 👋"
+    Title: "Hey! I'm Dhia (HexHunter404) 👋"
     Content: |
-      **Expert Cybersécurité & Intelligence Artificielle** 🚀
+      **Cybersecurity Expert & AI Researcher** 🚀
 
-      🎯 **Pro Hacker HTB #544** | **Top 2% TryHackMe** | **IMT Atlantique**
+      🎯 **HTB Pro Hacker #544** | **Top 2% TryHackMe** | **IMT Atlantique Engineering**
 
-      🔍 Spécialisé en **tests d'intrusion avancés**, **sécurité des applications web** et **IA appliquée à la cybersécurité**.
+      🔍 Specialized in **advanced penetration testing**, **web application security**, **Active Directory attacks**, and **AI-powered cybersecurity**.
 
-      📚 Je partage ici mes **writeups détaillés** et **techniques de pentest**.
+      📚 Sharing detailed **CTF writeups**, **red team techniques**, and **cutting-edge security research**.
 
-  # Boutons sociaux stylés
+      💡 *"The best defense comes from understanding the offense."*
+
   socialIcons:
     - name: github
       url: "https://github.com/dhiaZnaidi"
@@ -77,15 +75,19 @@ params:
     - name: rss
       url: "/index.xml"
 
-  # Cover image pour la page d'accueil
   cover:
     linkFullImages: true
 
-  # Configuration d'édition
   editPost:
     URL: "https://github.com/dhiaZnaidi/dhiaznaidiblog.github.io/tree/main/content"
-    Text: "Suggérer des modifications"
+    Text: "Suggest Changes"
     appendFilePath: true
+
+  htbSections:
+    machines: "🖥️ Machines"
+    challenges: "🧩 Challenges"  
+    fortresses: "🏰 Fortresses"
+    prolabs: "⚡ Pro Labs"
 
 menu:
   main:
@@ -95,26 +97,44 @@ menu:
       weight: 10
     - identifier: htb
       name: "🎯 HTB"
-      url: /tags/htb/
+      url: /writeups/htb/
       weight: 15
     - identifier: thm
       name: "🔍 THM"
-      url: /tags/thm/
+      url: /writeups/thm/
       weight: 20
     - identifier: research
-      name: "🧠 Recherche IA"
+      name: "🧠 AI Research"
       url: /research/
       weight: 25
-    - identifier: outils
-      name: "🛠️ Outils"
-      url: /outils/
+    - identifier: tools
+      name: "🛠️ Tools"
+      url: /tools/
       weight: 30
     - identifier: about
-      name: "👤 À propos"
+      name: "👤 About"
       url: /about/
       weight: 40
 
-# Configuration markdown avancée
+  # Sous-menu HTB
+  htb:
+    - identifier: machines
+      name: "🖥️ Machines"
+      url: /writeups/htb/machines/
+      weight: 10
+    - identifier: challenges
+      name: "🧩 Challenges"
+      url: /writeups/htb/challenges/
+      weight: 20
+    - identifier: fortresses
+      name: "🏰 Fortresses"
+      url: /writeups/htb/fortresses/
+      weight: 30
+    - identifier: prolabs
+      name: "⚡ Pro Labs"
+      url: /writeups/htb/prolabs/
+      weight: 40
+
 markup:
   highlight:
     noClasses: false
@@ -124,7 +144,7 @@ markup:
     lineNos: true
     lineNumbersInTable: true
     tabWidth: 4
-    style: "github-dark"  # Style sombre pour les codes
+    style: "github-dark"
   goldmark:
     renderer:
       unsafe: true
@@ -135,3 +155,4 @@ taxonomies:
   difficulty: "difficulty"
   platform: "platforms"
   technique: "techniques"
+  owasp: "owasp"
