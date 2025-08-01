@@ -9,7 +9,7 @@ platform: ["htb"]
 techniques: ["web-exploitation", "windows-privesc", "service-abuse", "targeted-kerberoasting", "dpapi-extraction"]
 description: "HTB Voleur machine walkthrough - Advanced Windows exploitation with service abuse, DPAPI attacks, and privilege escalation"
 cover:
-    image: "/static/images/writeups/htb/voleur/voleur-banner.png"
+    image: "/images/writeups/htb/voleur/voleur-banner.png"
     alt: "HTB Voleur Machine"
     caption: "Voleur - HTB Machine Walkthrough by HexHunter404"
 author: "HexHunter404"
@@ -249,7 +249,7 @@ BloodHound collection represents a critical escalation in reconnaissance sophist
 
 The discovery of multiple service accounts (svc_ldap, svc_winrm, svc_backup) immediately suggested potential privilege escalation paths, as service accounts often have elevated permissions and may be vulnerable to Kerberoasting attacks.
 
-![Ryan Naylor on Bloodhound](/static/images/writeups/htb/voleur/ryan.png)
+![Ryan Naylor on Bloodhound](/images/writeups/htb/voleur/ryan.png)
 
 ---
 
@@ -350,7 +350,7 @@ The Excel file was password-protected with a weak password ("football1"), demons
 - **todd.wolfe:** NightT1meP1dg3on14 (Account to be deleted)
 - **ryan.naylor:** "Has Kerberos Pre-Auth disabled temporarily"
 
-![Excel sheet content](/static/images/writeups/htb/voleur/image.png)
+![Excel sheet content](/images/writeups/htb/voleur/image.png)
 
 The access review spreadsheet contained a treasure trove of sensitive information, including plaintext passwords for multiple service accounts. The note about todd.wolfe's account being scheduled for deletion was particularly significant, as deleted accounts often retain valuable data. The notation about ryan.naylor having Kerberos Pre-Authentication disabled temporarily indicated a potential AS-REP roasting vulnerability.
 
@@ -372,7 +372,7 @@ The successful authentication with the svc_ldap service account marked a signifi
 
 **Key Discovery:** svc_ldap has WriteSPN permission on svc_winrm
 
-![WriteSPN](/static/images/writeups/htb/voleur/writespn.png)
+![WriteSPN](/images/writeups/htb/voleur/writespn.png)
 
 BloodHound analysis revealed that svc_ldap possessed WriteSPN (Write Service Principal Name) permissions on the svc_winrm account. This permission allows modification of Service Principal Names, which can be exploited to perform targeted Kerberoasting attacks. This relationship represents a classic example of how complex Active Directory permissions can create unintended privilege escalation paths.
 
@@ -587,7 +587,7 @@ The PowerShell query for deleted Active Directory objects revealed the presence 
 
 The account of Todd Wolfe was successfully restrored. Todd Wolfe is member of Second-Line Support
 
-![Todd Wolfe on Bloodhound](/static/images/writeups/htb/voleur/todd_wolfe.png)
+![Todd Wolfe on Bloodhound](/images/writeups/htb/voleur/todd_wolfe.png)
 
 Once restored, we run runas.exe one more time to get access as todd.wolfe
 
@@ -728,7 +728,7 @@ The credential extraction phase utilized the decrypted master key to recover sto
 
 The recovered credentials for jeremy.combs provided access to a higher-privileged user account, likely with access to additional resources and systems within the domain.
 
-![Jeremy Combs on BloodHound](/static/images/writeups/htb/voleur/jeremy_combs.png)
+![Jeremy Combs on BloodHound](/images/writeups/htb/voleur/jeremy_combs.png)
 
 ---
 
