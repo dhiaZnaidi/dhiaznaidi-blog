@@ -1,0 +1,150 @@
+baseURL: "https://dhiaznaidiblog.github.io"  #⚠️ Tu devras créer ce repo
+languageCode: "fr-fr"
+title: "HexHunter404 - Cybersécurité & IA"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+paginate: 8
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "HexHunter404"
+  description: "Expert Cybersécurité & IA | Pro Hacker HTB #544 | Top 2% THM | Writeups avancés pentest & CTF"
+  keywords: [pentest, cybersecurity, AI, machine-learning, htb, tryhackme, ctf, offensive-security, defensive-security, forensics, dhia-znaidi, hexhunter404]
+  author: "Dhia Znaidi (HexHunter404)"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+
+  label:
+    text: "🔐 HexHunter404"
+    icon: /favicon.ico
+    iconHeight: 35
+
+  homeInfoParams:
+    Title: "Salut ! Je suis Dhia (HexHunter404) 👋"
+    Content: >
+      **Expert Cybersécurité & Intelligence Artificielle** 🚀
+
+
+      🎯 **Pro Hacker HTB #544** | **Top 2% TryHackMe** | **IMT Atlantique**
+
+
+      🔍 Spécialisé en **tests d'intrusion avancés**, **sécurité des applications web**, **forensics** et **détection d'intrusions par IA**.
+
+
+      📚 Je partage ici mes **writeups détaillés**, **techniques de pentest** et **recherches en IA appliquée à la cybersécurité**.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/dhiaZnaidi"
+    - name: linkedin
+      url: "https://linkedin.com/in/dhia-znaidi"
+    - name: email
+      url: "mailto:dhia.znaidi@imt-atlantique.net"
+
+  profileMode:
+    enabled: false
+
+menu:
+  main:
+    - identifier: writeups
+      name: "📝 Writeups"
+      url: /writeups/
+      weight: 10
+    - identifier: htb
+      name: "🎯 HTB"
+      url: /tags/htb/
+      weight: 15
+    - identifier: thm
+      name: "🔍 THM"
+      url: /tags/thm/
+      weight: 20
+    - identifier: research
+      name: "🧠 Recherche IA"
+      url: /research/
+      weight: 25
+    - identifier: outils
+      name: "🛠️ Outils"
+      url: /outils/
+      weight: 30
+    - identifier: certifications
+      name: "🏆 Certifs"
+      url: /certifications/
+      weight: 35
+    - identifier: about
+      name: "👤 À propos"
+      url: /about/
+      weight: 40
+
+markup:
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    tabWidth: 4
+    style: "github-dark"
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  difficulty: "difficulty"
+  platform: "platforms"
+  technique: "techniques"
+  owasp: "owasp"
+
+# Support des langues
+languages:
+  fr:
+    languageName: "Français"
+    weight: 1
+    menu:
+      main:
+        - identifier: writeups
+          name: "📝 Writeups"
+          url: /writeups/
+          weight: 10
+  en:
+    languageName: "English"
+    weight: 2
+    title: "HexHunter404 - Cybersecurity & AI"
+    homeInfoParams:
+      Title: "Hi! I'm Dhia (HexHunter404) 👋"
+      Content: >
+        **Cybersecurity & AI Expert** 🚀
+
+
+        🎯 **HTB Pro Hacker #544** | **Top 2% TryHackMe** | **IMT Atlantique**
+
+
+        🔍 Specialized in **advanced penetration testing**, **web application security**, **digital forensics** and **AI-powered intrusion detection**.
